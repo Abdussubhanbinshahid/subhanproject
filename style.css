@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+/* Header */
+
+header{
+    background:#002147;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+/* Navigation */
+
+nav{
+    background:#0a4fa3;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffd700;
+}
+
+/* Container */
+
+.container{
+    width:80%;
+    margin:auto;
+    padding:40px 0;
+}
+
+/* Headings */
+
+h2{
+    color:#002147;
+    margin-bottom:20px;
+}
+
+/* Card Style */
+
+.card{
+    background:white;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Faculty Table */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th{
+    background:#0a4fa3;
+    color:white;
+    padding:12px;
+}
+
+table td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+}
+
+table tr:hover{
+    background:#f2f2f2;
+}
+
+/* Contact Form */
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin-top:8px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background:#0a4fa3;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+}
+
+button:hover{
+    background:#002147;
+}
+
+/* Footer */
+
+footer{
+    background:#002147;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
